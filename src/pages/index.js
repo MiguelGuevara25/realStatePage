@@ -35,6 +35,7 @@ const Home = () => {
 
       <h1>Acá será el titulo para el git add</h1>
       <h1>La rama de testing</h1>
+      <h1>Cambios de Miguel</h1>
 
       <AboutMeOne />
       <GallerySectionOne />
