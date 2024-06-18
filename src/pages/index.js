@@ -35,7 +35,6 @@ const Home = () => {
 
       <h1>Acá será el titulo para el git add</h1>
       <h1>La rama de testing</h1>
-      <hi>rama max</hi>
 
       <AboutMeOne />
       <GallerySectionOne />
