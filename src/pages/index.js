@@ -32,6 +32,9 @@ const Home = () => {
       </div>
 
       <FunFacts />
+
+      <h1>Acá será el titulo para el git add</h1>
+
       <AboutMeOne />
       <GallerySectionOne />
     </Layout>
