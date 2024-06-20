@@ -4,11 +4,24 @@ import GallerySectionOne from "@/components/GallerySection/GallerySectionOne";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
+import FooterSix from "@/components/MainFooter/FooterSix";
+import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
+import SliderSeven from "@/components/SliderSection/SliderSeven";
 
 const Home = () => {
   return (
     <Layout pageTitle="Home 01">
+      <Style
+        font="DM Sans, sans-serif"
+        bFont="DM Sans, sans-serif"
+        black="#182e65"
+        text="#7c8498"
+        base="#ffc001"
+        baseRgb="255, 192, 1"
+        scrollToTopColor="var(--thm-black)"
+        blackRgb="24, 46, 101"
+      />
       <HeaderOne
         rightMenu
         links={false}
@@ -17,23 +30,11 @@ const Home = () => {
       />
       <MobileMenu />
       <SearchPopup />
-
-      <div style={{ height: "100vh", display: "flex" }}>
-        <div className="w-100 d-flex justify-content-center align-items-center">
-          <h1>Real State</h1>
-        </div>
-
-        <div className="w-100">
-          <img
-            className="w-100"
-            src="https://linoorwp.pixydrops.com/wp-content/uploads/2023/02/slider-eleven-img-1.jpg"
-          />
-        </div>
-      </div>
-
+      <SliderSeven />
       <FunFacts />
       <AboutMeOne />
       <GallerySectionOne />
+      <FooterSix />
     </Layout>
   );
 };
