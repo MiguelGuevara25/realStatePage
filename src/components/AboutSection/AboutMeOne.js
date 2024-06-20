@@ -31,7 +31,7 @@ const AboutMeOne = () => {
               </div>
               <p className="about-me-one__text">{text}</p>
               <p className="about-me-one__text">{text2}</p>
-              <p className="about-me-one__qoute">{text3}</p>
+              {/* <p className="about-me-one__qoute">{text3}</p> */}
               <Row className="about-me-one__certificate-row">
                 {certificates.map((image, i) => (
                   <Col key={i} md={6}>

@@ -11,6 +11,7 @@ import image8 from "@/images/update-01-10-2021/resources/about-six-1-1.jpg";
 import image4 from "@/images/update-1-12-2020/resources/about-1-1.jpg";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";
 import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
+import image14 from "../../public/christopherMayor.png"
 
 export const aboutSectionOne = {
   image1,
@@ -168,11 +169,11 @@ export const aboutTen = {
 };
 
 export const aboutMeOne = {
-  image: image13,
-  title: "Jessica brown",
-  text: "Lorem ipsum dolor sit amet, con adipiscing elit tiam convallis elit id impedie. Quisq commodo simply free ornare tortor. Excepteur sint occaecat sunt in culpa qui officia deserunt mollit.",
+  image: image14,
+  title: "Christopher Mayor",
+  text: "Chris has 25 years of experience in commercial development of properties. He has been involved in development projects for multi-family, retail, industrial and office space.",
   text2:
-    "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    "Chris' clients include: Allstate, Montessori School, Dunkin' Donuts, 7-eleven, and many other national retailers. Chris represents both landlord and tenants in lease negotiations for new site locations.",
   text3: "I help my clients stand out and they help me grow.",
   socials: [
     {

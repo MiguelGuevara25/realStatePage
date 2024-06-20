@@ -17,16 +17,16 @@ export const sliderSeven = [
   {
     id: 1,
     bg: "slider-seven-1-1.jpg",
-    title: "We Deliver the Quality Seo Links.",
+    title: "Christopher Mayor",
     titleHighlight: "Quality",
-    text: "We’re committed to providing customers exceptional service offering employees the best training.",
+    text: '"From Montauk to Manhattan"',
   },
   {
     id: 2,
     bg: "slider-seven-1-2.jpg",
-    title: "We Deliver the Quality Seo Links.",
+    title: "Christopher Mayor",
     titleHighlight: "Quality",
-    text: "We’re committed to providing customers exceptional service offering employees the best training.",
+    text: '"From Montauk to Manhattan"',
   },
 ];
 
