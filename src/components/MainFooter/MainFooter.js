@@ -29,7 +29,7 @@ const MainFooter = ({ normalPadding = true }) => {
       <div className="auto-container">
         <div className="widgets-section">
           <Row className="clearfix">
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={6} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget logo-widget">
                 <div className="widget-content">
                   <div className="logo">
@@ -52,7 +52,7 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            {/* <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
                   <h6>Explore</h6>
@@ -78,29 +78,42 @@ const MainFooter = ({ normalPadding = true }) => {
                   </Row>
                 </div>
               </div>
-            </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            </Col> */}
+
+            <Col xl={6} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">
                   <h6>Contact</h6>
                   <ul className="contact-info">
-                    <li className="address">
+                    {/* <li className="address">
                       <span className="icon flaticon-pin-1"></span>{" "}
                       <TextSplit text={address} />
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <span className="icon flaticon-call"></span>
                       <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-                    </li>
+                    </li> */}
                     <li>
                       <span className="icon flaticon-email-2"></span>
                       <a href={`mailto:${email}`}>{email}</a>
+                    </li>
+
+                    <li>
+                      <span className="icon fab fa-linkedin-in"></span>
+                      <a
+                        href={`https://www.linkedin.com/in/christopher-r-mayor-cirec-53b10330/`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Linkedin
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+
+            {/* <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget newsletter-widget">
                 <div className="widget-content">
                   <h6>Newsletter</h6>
@@ -122,7 +135,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <div className="text">{textBottom}</div>
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </div>

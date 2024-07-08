@@ -30,14 +30,14 @@ export const mainFooter = {
   about2: '"From Montauk to Manhattan"',
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
-  text: "Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.",
+  text: '"From Montauk to Manhattan"',
   address: "66 Broklyn Street, New York \n United States of America",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "666 888 000",
   phone2: "+92 3333 222 000",
-  email: "needhelp@linoor.com",
+  email: "chris@islandassociates.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
