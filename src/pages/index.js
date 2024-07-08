@@ -11,7 +11,7 @@ import SliderSeven from "@/components/SliderSection/SliderSeven";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home 01">
+    <Layout pageTitle="Home">
       <Style
         font="DM Sans, sans-serif"
         bFont="DM Sans, sans-serif"

@@ -249,24 +249,24 @@ const navItems = [
 export const socials = [
   {
     id: 1,
-    icon: "fab fa-facebook-square",
-    href: "#",
+    icon: "fab fa-linkedin-in",
+    href: "https://www.linkedin.com/in/christopher-r-mayor-cirec-53b10330/",
   },
-  {
-    id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
-  },
-  {
-    id: 3,
-    icon: "fab fa-instagram",
-    href: "#",
-  },
-  {
-    id: 4,
-    icon: "fab fa-pinterest-p",
-    href: "#",
-  },
+  // {
+  //   id: 2,
+  //   icon: "fab fa-twitter",
+  //   href: "#",
+  // },
+  // {
+  //   id: 3,
+  //   icon: "fab fa-instagram",
+  //   href: "#",
+  // },
+  // {
+  //   id: 4,
+  //   icon: "fab fa-pinterest-p",
+  //   href: "#",
+  // },
 ];
 
 const headerData = {

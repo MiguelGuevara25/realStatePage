@@ -17,7 +17,7 @@ const FooterSix = () => {
       <section className="footer-six">
         <div className="auto-container">
           <Row>
-            <Col sm={12} md={12} lg={3}>
+            <Col sm={12} md={12} lg={6}>
               <div className="footer-six__widget footer-six__about">
                 <Link href="/">
                   <a>
@@ -27,14 +27,14 @@ const FooterSix = () => {
                 <p className="footer-six__about__text">{about2}</p>
                 <div className="footer-six__social">
                   {socials.map(({ id, icon, href }) => (
-                    <a key={id} href={href}>
+                    <a key={id} href={href} target="_blank" rel="noreferrer">
                       <i className={icon}></i>
                     </a>
                   ))}
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={12} lg={4}>
+            {/* <Col sm={12} md={12} lg={4}>
               <div className="footer-six__widget footer-six__links">
                 <h3 className="footer-six__title">Explore</h3>
                 <div className="footer-six__links__list">
@@ -54,8 +54,8 @@ const FooterSix = () => {
                   </ul>
                 </div>
               </div>
-            </Col>
-            <Col sm={12} md={12} lg={5}>
+            </Col> */}
+            <Col sm={12} md={12} lg={6}>
               <div className="footer-six__widget footer-six__newsletter">
                 <h3 className="footer-six__title">Newsletter</h3>
                 <form

@@ -45,24 +45,24 @@ export const mainFooter = {
   socials: [
     {
       id: 1,
-      href: "#",
-      icon: "fab fa-facebook-square",
+      href: "https://www.linkedin.com/in/christopher-r-mayor-cirec-53b10330/",
+      icon: "fab fa-linkedin-in",
     },
-    {
-      id: 2,
-      href: "#",
-      icon: "fab fa-twitter",
-    },
-    {
-      id: 3,
-      href: "#",
-      icon: "fab fa-instagram",
-    },
-    {
-      id: 4,
-      href: "#",
-      icon: "fab fa-pinterest-p",
-    },
+    // {
+    //   id: 2,
+    //   href: "#",
+    //   icon: "fab fa-twitter",
+    // },
+    // {
+    //   id: 3,
+    //   href: "#",
+    //   icon: "fab fa-instagram",
+    // },
+    // {
+    //   id: 4,
+    //   href: "#",
+    //   icon: "fab fa-pinterest-p",
+    // },
   ],
   links: [
     {

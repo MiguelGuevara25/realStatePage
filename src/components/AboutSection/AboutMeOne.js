@@ -31,8 +31,21 @@ const AboutMeOne = () => {
               </div>
               <p className="about-me-one__text">{text}</p>
               <p className="about-me-one__text">{text2}</p>
+              <p className="about-me-one__text">
+                Chris is Commercial and Investment Real Estate Certified. CIREC
+                designated. He is currently working with Island Associates Real
+                Estate Inc. See more{" "}
+                <a
+                  href="https://www.islandassociates.com"
+                  className="fw-bold text-decoration-underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here
+                </a>
+              </p>
               {/* <p className="about-me-one__qoute">{text3}</p> */}
-              <Row className="about-me-one__certificate-row">
+              {/* <Row className="about-me-one__certificate-row">
                 {certificates.map((image, i) => (
                   <Col key={i} md={6}>
                     <Image
@@ -44,7 +57,7 @@ const AboutMeOne = () => {
                     />
                   </Col>
                 ))}
-              </Row>
+              </Row> */}
             </div>
           </Col>
         </Row>
