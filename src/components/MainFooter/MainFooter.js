@@ -33,8 +33,8 @@ const MainFooter = ({ normalPadding = true }) => {
               <div className="footer-widget logo-widget">
                 <div className="widget-content">
                   <div className="logo">
-                    <Link href="/">
-                      <a>
+                    <Link href="https://www.islandassociates.com/">
+                      <a target="_blank">
                         <Image id="fLogo" src={logo.src} alt="" />
                       </a>
                     </Link>

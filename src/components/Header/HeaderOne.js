@@ -89,7 +89,7 @@ const HeaderOne = ({
           >
             <div className="logo-box">
               <div className="logo">
-                <Link href="/">
+                <Link href="https://www.islandassociates.com/">
                   <a title={title}>
                     <Image
                       id="thm-logo"
