@@ -34,7 +34,7 @@ const Home = () => {
       <SliderSeven />
       <FunFacts />
       <AboutMeOne />
-      <GallerySectionOne />
+      {/* <GallerySectionOne /> */}
       {/* <FooterSix /> */}
       <MainFooter />
     </Layout>
